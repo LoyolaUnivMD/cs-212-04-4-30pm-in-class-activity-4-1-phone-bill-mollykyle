@@ -2,6 +2,14 @@
 // Read it again
 // Your code here
 // Delete these 4 lines of comments
+//Programmers: Molly Kyle
+//Course: CS 212 Mr. Nweke
+//Due Date: 2/8/24
+//Lab Assignment: Class Assignment
+//Problem Statement: This program will calculate the user's phone bill this month based on their plan and GB used
+//Input: Plan user has, GB used this month, whether they have a coupon
+//Output: Cost this month
+//Credits: https://jenkov.com/tutorials/java-internationalization/decimalformat.html
 
 import java.util.Objects;
 import java.util.Scanner;
