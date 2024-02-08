@@ -1,1 +1,35 @@
 THINK before you code...
+1. Ask user for input for typePackage
+2. Strip and set typePackage to lowercase
+3. while the typePackage is either "green", "blue", or "purple":
+    a. if typePackage = "green"
+        i. providedGB = 2
+        ii. additionalGBCost = 15
+        iii. costPerMonth = 49.99
+        iv. assign GBused to user input
+        v. if GBused is greater than providedGB:
+            1. calculate totalCost by adding costPerMonth and ((GBused - providedGB)(additionalGBCost))
+            2. ask user if they have a coupon
+            3. while coupon is true and cost is greater than or equal to 75:
+                a. set value for coupon
+                b. subtract coupon from cost
+                c. return totalCost
+        vii. output total cost
+    b. otherwise if typePackage = "blue"
+         i. providedGB = 4
+         ii. additionalGBCost = 10
+         iii. costPerMonth = 70
+         iv. assign GBused to user input
+         v. if GBused is greater than providedGB:
+            1. calculate totalCost by adding costPerMonth and ((GBused - providedGB)(additionalGBCost))
+         iv. else
+            1. totalCost = costPerMonth
+            2. output totalCost
+
+    c. otherwise if typePackage = "purple":
+          i. providedGB = 4
+          ii. additionalGBCost = 10
+          iii. costPerMonth = 70
+          iv. ask for cost
+    d. Output error message
+    e. Ask for new typePackage?
